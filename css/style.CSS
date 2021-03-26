@@ -1,0 +1,534 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+
+header{
+    width: 100%;
+    float: left;
+    background-color: white;
+    position: fixed;
+    height: 75px;
+}
+.social{
+    width: 20%;
+    float: left;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li{
+    display: inline-block;
+    margin: 30px 3px;
+}
+.social ul li a{
+
+}
+.fa.fa-facebook-official{
+    color: #365B98;
+    font-size: 20px;
+}
+.fa.fa-twitter-square{
+    color: #017AC8;
+    font-size: 20px;
+}
+.fa.fa-linkedin-square{
+    color: #00007C;
+    font-size: 20px;
+}
+.fa.fa-google-plus-square{
+    color: #C00000;
+    font-size: 20px;
+}
+.fa.fa-sign-in{
+    color: black;
+    font-size: 20px;
+}
+.head-one{
+    width: 20%;
+    float: left;    
+}
+.head-one img{
+    padding: 17px;
+    width: 180px;
+}
+.head-two{
+    width:60%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 30px 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 30px;
+}
+
+/* How It Works Section */
+
+.banner{
+    width: 100%;
+    float: left;
+    background: url(../img/pexel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+.content{
+    background-color: rgba(102, 97, 97, 0.301);
+    padding: 133px 47px;
+    margin: 120px 260px;
+}
+.content h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.content p{
+    text-align: center;
+}
+.content ul{
+
+}
+.content ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 60px;
+}
+
+/* About Section*/
+
+.about{
+    width: 100%;
+    float: left;
+    text-align: center;
+    
+}
+.about-one{
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+.about-one h3{
+    margin-bottom: 30px;
+}
+.about-one ul{
+    list-style: none;
+}
+.about-one ul li{
+    
+}
+.about-one ul li a{
+    
+}
+.fa.fa-check-circle{
+    color: #687DC8;
+    padding: 117px;
+    font-size: 70px;
+    height: 0px;
+    margin-top: -40px;;
+}
+.about-two{
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+.about-two h3{
+    margin-bottom: 30px;
+}
+.about-two ul{
+    list-style: none;
+}
+.about-two ul li{
+    
+}
+.about-two ul li a{
+    
+}
+.fa.fa-map-marker{
+    color: #098C75;
+    padding: 117px;
+    font-size: 70px;
+    height: 0px;
+    margin-top: -40px;
+}
+.about-three{
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+.about-three h3{
+    margin-bottom: 30px;
+}
+.about-three ul{
+    list-style: none;
+}
+.about-three ul li{
+    
+}
+.about-three ul li a{
+    
+}
+.fa.fa-money{
+    color: #4BB356;
+    padding: 117px;
+    font-size: 70px;
+    height: 0px;
+    margin-top: -40px;
+}
+.about-four{
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+.about-four h3{
+    margin-bottom: 30px;
+}
+.about-four ul{
+    list-style: none;
+}
+.about-four ul li{
+    
+}
+.about-four ul li a{
+    
+}
+.fa.fa-user-plus{
+    color: #94E15E;
+    padding: 117px;
+    font-size: 70px;
+    height: 0px;
+    margin-top: -40px;
+}
+
+/*Newsletter Section*/
+
+.newsletter{
+    width: 100%;
+    float: left;
+}
+.newsletter-one{
+    width: 45%;
+    background-color: #BACCD6;
+    height: 300px;
+    float: left;
+    margin: 0px 20px;
+}
+.newsletter-one h2{
+    margin: 20px;
+    text-align: center;
+}
+.newsletter-one ul{
+    
+}
+.newsletter-one ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+    text-align: left;
+    
+}
+.newsletter-one ul li a{
+ 
+}
+.fa.fa-dot-circle-o{
+    color: green;
+    padding: 0px 10px;
+}
+.newsletter-two{
+    width: 45%;
+    background-color: #BACCD6;
+    height: 300px;
+    float: left;
+    margin: 0px 37px;
+    width: 513px;
+}
+.newsletter-two h2{
+    margin: 20px;
+    text-align: center;
+}
+.newsletter-two ul{
+    
+}
+.newsletter-two ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+    text-align: left;
+    
+}
+.newsletter-two ul li a{
+ 
+}
+.fa.fa-dot-circle-o{
+    color: green;
+    padding: 0px 10px;
+}
+
+/* Blog Section */
+
+.blog{
+    width: 100%;
+    float: left;
+}
+.blog h2{
+    text-align: center;
+    padding: 20px 0px;
+    color: #10497a;
+}
+.blog-one{
+    width: 50%;
+    height: 150px;
+    float: left;
+    margin: 0px 20px;          
+}
+.blog-one h3{
+    color: #145791;
+    margin-bottom: 25px;
+}
+.blog-two{
+    width: 50%;
+    height: 150px;
+    float: left;
+    width: 513px;    
+}
+.blog-two h3{
+    color: #145791;
+    margin-bottom: 25px;
+}
+
+/* Message Section */
+
+.message{
+    width: 100%;
+    float: left;
+    background-color: lightgray;
+}
+.message-one{
+    width: 100%;
+    height: 220px;
+    float: left;
+}
+.message-one h4{
+    text-align: center;
+    padding: 15px;
+}
+.message-one ul{
+
+}
+.message-one ul li{
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+}
+.message-one ul li a{
+
+}
+.fa.fa-credit-card{
+    color: black;
+}
+.fa.fa-users{
+    color: black;
+}
+.fa.fa-files-o{
+    color: black;
+}
+
+/* Rating Section */
+
+.rating{
+    width: 100%;
+    float: left;
+    
+
+}
+.rating-one{
+    width: 100%;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+.rating-one ul{
+    
+}
+.rating-one ul li{ 
+    list-style-type: none;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 0px
+    
+}
+.rating-one ul li a{
+    
+}
+.fa.fa-star{
+    color: #01B87A;
+    font-size: 28px;
+}
+.fa.fa-star-o{
+    background-color: greenyellow;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 4px;
+}
+
+/* Mention Section */
+
+.mention{
+    width: 100%;
+    float: left;
+    background-color: gray;
+
+}
+.mention img{
+
+}
+.mention p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+}
+.mention-one{
+    width: 20%; 
+    height: 150px;
+    float: left; 
+}
+.mention-one img{
+    height: 80px;
+    width: 170px;
+    padding: 17px;
+}
+.mention-one p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 50px;
+}
+.mention-two{
+    width: 20%; 
+    height: 150px;
+    float: left;    
+}
+.mention-two img{
+    height: 80px;
+    width: 170px;
+    padding: 17px;
+
+}
+.mention-two p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 50px;
+}
+.mention-three{
+    width: 20%; 
+    height: 150px;
+    float: left;    
+}
+.mention-three img{
+    height: 80px;
+    width: 170px;
+    padding: 17px;
+}
+.mention-three p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 50px;
+}
+.mention-four{
+    width: 20%; 
+    height: 150px;
+    float: left;    
+}
+.mention-four img{
+    height: 80px;
+    width: 170px;
+    padding: 17px;
+}
+.mention-four p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 50px;
+}
+.mention-five{
+    width: 20%; 
+    height: 150px;
+    float: left;    
+}
+.mention-five img{
+    height: 80px;
+    width: 170px;
+    padding: 17px;
+}
+.mention-five p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 50px;
+}
+
+/* Footer Section */
+
+footer{
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: teal;
+}
+.footer-one{
+    width: 50%;
+    float: left;
+
+}
+.footer-one ul{
+
+}
+.footer-one ul li{
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.footer-one ul li a{
+    
+}
+.footer-one p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.fa.fa-copyright{
+    font-size: 10px;
+    color: white;
+}
+.footer-two{
+    width: 50%;
+    float: left;
+}
+.footer-two p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+/* Button */
+
+button{
+    padding: 5px;
+    color: white;
+    background-color: #44ec1a;
+    border-color: #dad8d8; 
+    cursor: pointer;
+    margin: 15px 0px 0px 0px;
+}
